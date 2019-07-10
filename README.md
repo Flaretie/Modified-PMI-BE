@@ -9,6 +9,7 @@ we propose a new method which is based on Point Mutually Information, Branch Ent
 
 ## Method
 
+```latex
 PMI is
 $$
 \begin{align*}
@@ -48,6 +49,9 @@ Final Score
 $$
 \mbox{Score}(x) = \lambda\mathcal{N}(\mbox{BE}(x)) + (1-\lambda)\mathcal{N}(pmi')
 $$
+```
+
+
 
 ## Result
 
@@ -66,7 +70,4 @@ $$
 - **Test file**: ~700KB drug name data
 -  **Experiment IDE**: RStudio Version 1.1.414
 -  **OS**: ubuntu 14.04
-
-
-
 
